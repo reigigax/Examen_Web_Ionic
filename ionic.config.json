@@ -1,0 +1,7 @@
+{
+  "name": "pagepromotional-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
