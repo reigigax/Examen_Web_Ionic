@@ -35,3 +35,35 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+.default-button {
+    --color: white;
+}
+
+.fondo{
+    --background: linear-gradient(180deg, #af7ead 0%, #84b6f4 100%); 
+    --color: white;
+}
+
+.fondo-nav{
+    --background: #005187; 
+    --color: #ffffff;
+}
+
+.default-image {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.default-image-navbar {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.none-bg {
+    --background: none;
+}
+
+.text-color {
+    --color: white;
+}

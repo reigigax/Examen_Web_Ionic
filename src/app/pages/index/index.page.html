@@ -1,13 +1,45 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>index</ion-title>
+  <ion-toolbar class="fondo-nav">
+    <ion-item lines="none" class="none-bg">
+      <ion-title>
+        <ion-img src="assets/img/duoc-logo.png" class="default-image-navbar" alt="Logo DuocUc"></ion-img>
+      </ion-title>
+      <ion-button color="light" size="small" href="assets/apk/AppNombreGenerico.apk">Descarga Aquí<ion-icon name="download-outline" slot="end"></ion-icon></ion-button>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">index</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="fondo">
+  <ion-content color="secondary">
+    
+    <ion-card class="fondo">
+        <ion-grid>
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="auto">
+              <div>
+                <ion-img src="assets/img/Control_asistencia.webp" class="default-image ion-text-wrap" alt="Control Asistencia"></ion-img>  
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      <ion-card-header>
+        <ion-card-title class="text-color ion-text-center">
+          <h1 style="color: #005187; font-weight: 800;">Aplicacion de Nombre Generico</h1>
+        </ion-card-title>
+        <ion-card-subtitle class="text-color ion-text-center">
+          <h6 style="font-weight: 200;">Maneja con Mejor Eficacia tu Asistencia</h6>
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content class="ion-text-justify" style="font-weight: 400;">
+          Nuestra aplicación de marcar asistencia por QR es una herramienta digital que permite registrar la presencia de estudiantes mediante el escaneo de códigos QR. Los usuarios reciben un código QR único que, al ser escaneado con un dispositivo compatible, registra automáticamente su asistencia en una base de datos. Este sistema agiliza el proceso y reduce errores manuales. Es ideal para  una solución eficiente y moderna para el control de asistencia.
+      </ion-card-content>
+    </ion-card>
+
+  </ion-content>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar class="fondo-nav">
+    <ion-title><h6>Derechos reservados del DreamTeam©.</h6></ion-title>
+  </ion-toolbar>
+</ion-footer>
